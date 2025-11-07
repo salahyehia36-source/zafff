@@ -75,7 +75,7 @@ class _HomePageState extends State<HomePage> {
 
                 const SizedBox(height: 20),
 
-                // ===== Greeting Text =====
+               
                 Text(
                   'Hello $userName, what fruit salad\ncombo do you want today?',
                   style: const TextStyle(
@@ -84,7 +84,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                 ),
 
-                // ===== Search Bar =====
+                
                 Padding(
                   padding: const EdgeInsets.symmetric(vertical: 24.0),
                   child: Row(
@@ -112,7 +112,7 @@ class _HomePageState extends State<HomePage> {
 
                 const SizedBox(height: 40),
 
-                // ===== Recommended Section =====
+               
                 const Text(
                   'Recommended Combo',
                   style: TextStyle(
@@ -123,7 +123,7 @@ class _HomePageState extends State<HomePage> {
 
                 const SizedBox(height: 24),
 
-                // ===== Two Recommended Cards =====
+                
                 Row(
                   children: [
                     CustomCard(
@@ -142,7 +142,7 @@ class _HomePageState extends State<HomePage> {
 
                 const SizedBox(height: 20),
 
-                // ===== Category Buttons =====
+                
                 SizedBox(
                   height: 50,
                   child: ListView.separated(
